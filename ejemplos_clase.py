@@ -5,7 +5,7 @@ Ejemplos de clase
 ---------------------------
 Autor: Inove Coding School
 Version: 1.1
- 
+
 Descripcion:
 Programa creado para mostrar ejemplos prácticos de los visto durante la clase
 '''
@@ -16,15 +16,16 @@ __version__ = "1.1"
 
 valor_maximo = 5
 
+
 def bucle_while():
     # Ejemplos con bucle while "mientras"
-    x = 0    
+    x = 0
 
     # En este caso realizaremos un bucle mientras
     # x sea menor a 5
     while x < valor_maximo:
         if x == 4:
-            print('Bucle interrumpido en x=',x)
+            print('Bucle interrumpido en x=', x)
             break
 
         x_aux = x   # Guardamos en una variable auxiliar (aux) el valor de x
@@ -36,7 +37,7 @@ def bucle_while():
 
         # Imprimimos en pantalla el valorde x_aux,
         # que era el valor de x antes de incrementarlo
-        print(x_aux,'es menor a',valor_maximo)
+        print(x_aux, 'es menor a', valor_maximo)
 
     while True:
         print('Ingrese un número distinto de cero!')
@@ -46,8 +47,7 @@ def bucle_while():
             print('Se acabó el juego! numero={}'.format(numero))
             break
         print('Número ingresado={}'.format(numero))
-            
-    
+
 
 def bucle_for():
     # Ejemplos con bucle for "para"
@@ -57,14 +57,14 @@ def bucle_for():
     # Este bucle "for" caso es el indicado para este tipo de acciones
     for x in range(5):
         if x == 4:
-            print('Bucle interrumpido en x=',x)
+            print('Bucle interrumpido en x=', x)
             break
 
         # Si x es par, continuo el bucle sin terminarlo
         if (x % 2) == 0:
             continue
 
-        print(x,'es menor a',valor_maximo)
+        print(x, 'es menor a', valor_maximo)
 
     # Ahora recorreremos (iterar) una lista de datos en donde
     # en los índices pares (0, 2, 4) se encuentran los nombres de los contactos
@@ -77,11 +77,12 @@ def bucle_for():
         if (i % 2) == 0:
             # Índice par, imprimo nombre
             nombre = agenda[i]
-            print("Nombre contacto:",nombre)
+            print("Nombre contacto:", nombre)
         else:
             # Índice impar, imprimo número
             numero = agenda[i]
-            print("Número contacto:",numero)
+            print("Número contacto:", numero)
+
 
 def contador():
     # Ejemplo de como contar la cantidad de veces
@@ -96,7 +97,7 @@ def contador():
     contador = 0
 
     # Bandera que usamos para indicar que el bucle siga corriendo
-    numero_valido = True    
+    numero_valido = True
     print("Ingrese cualquier número entero mayor a cero")
     print("Ingrese número negativo para teriminar el programa")
     while numero_valido:
@@ -105,9 +106,10 @@ def contador():
         if numero >= 0:
             if(numero % 2) == 0:    # El número es par?
                 contador += 1       # Incremento el contador
-                print("Contador =",contador)
+                print("Contador =", contador)
         else:
             numero_valido = False   # Número negativo, numero_valido falso
+
 
 def sumatoria():
     # Ejemplos de ecuaciones con bucles
@@ -126,7 +128,7 @@ def sumatoria():
 
     # Esta operación se puede realizar con un bucle "for"
     # dado la lista de números
-    numeros = [1,2,3,4,5]
+    numeros = [1, 2, 3, 4, 5]
 
     # Debo primero inicializar la variable donde almacenaré la sumatoria
     # Ya que es necesario que empiece con un valor conocido
@@ -134,7 +136,8 @@ def sumatoria():
 
     for numero in numeros:
         sumatoria += numero     # sumatoria = sumatoria + numero
-        print("número = ",numero,"sumatoria =",sumatoria)
+        print("número = ", numero, "sumatoria =", sumatoria)
+
 
 def bucle_while_for():
     # Ejemplos de bucles while + for
@@ -173,15 +176,17 @@ def bucle_while_for():
         lista_numeros.append(numero)
 
     # Termino el bucle imprimo la lista de números:
-    print("Lista: ",lista_numeros)
+    print("Lista: ", lista_numeros)
     # Imprimo el máximo número encontrado
-    print("Máximo número = ",maximo_numero)
+    print("Máximo número = ", maximo_numero)
     # Imprimo el máximo número utilizando la función max de Python
-    print("Máximo número con Python = ",max(lista_numeros))
+    print("Máximo número con Python = ", max(lista_numeros))
     # Imprimo el índice del máximo número en la lista
-    print("Índice del máximo número en la lista = ",lista_numeros.index(maximo_numero))
+    print("Índice del máximo número en la lista = ",
+          lista_numeros.index(maximo_numero))
     # Imprimo cuantas veces se repite el máximo número en la lista
-    print("Índice del máximo número en la lista = ",lista_numeros.count(maximo_numero))
+    print("Cantidad del máximo número en la lista = ",
+          lista_numeros.count(maximo_numero))
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
@@ -190,4 +195,3 @@ if __name__ == '__main__':
     contador()
     sumatoria()
     bucle_while_for()
-
