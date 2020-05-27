@@ -7,7 +7,8 @@ Autor: Inove Coding School
 Version: 1.1
 
 Descripcion:
-Programa creado para poner a prueba los conocimientos adquiridos durante la clase
+Programa creado para poner a prueba los conocimientos
+adquiridos durante la clase
 '''
 
 __author__ = "Inove Coding School"
