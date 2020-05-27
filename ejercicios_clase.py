@@ -5,7 +5,7 @@ Ejercicios de clase
 ---------------------------
 Autor: Inove Coding School
 Version: 1.1
- 
+
 Descripcion:
 Programa creado para poner a prueba los conocimientos adquiridos durante la clase
 '''
@@ -13,6 +13,7 @@ Programa creado para poner a prueba los conocimientos adquiridos durante la clas
 __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
 __version__ = "1.1"
+
 
 def ej1():
     # Ejercicios con bucles "while"
@@ -24,7 +25,7 @@ def ej1():
     # el valor de "x" incremente "1" en cada iteración
 
     while condicion:    # reemplace "condicion" por lo que crea necesario
-        print("Valor de x =",x)
+        print("Valor de x =", x)
         # Coloque la línea de código para que "X" incremente "1"
 
     x = 5
@@ -34,8 +35,9 @@ def ej1():
     # el valor de "x" decremente "1" en cada iteración
 
     while condicion:    # reemplace "condicion" por lo que crea necesario
-        print("Valor de x =",x)
+        print("Valor de x =", x)
         # Coloque la línea de código para que "X" decremente "1"
+
 
 def ej2():
     # Ejemplos con bucles "for"
@@ -74,13 +76,13 @@ def ej4():
     # una condición compuesta (utilice el operador "and" o "or" según corresponda)
     # En cada iteracion del bucle debe incrementar el valor de "x" en "2"
     # e imprimir en pantalla el resultado de X (antes de incrementar) con print
-    
 
     # Realice el mismo bucle "while" pero en vez de estar formado por una condición
     # compuesta, que el "while" siga iterando mientras <x sea menos a 10>, y dentro del
     # "while" consultar si <x es igual a 6>, y en ese caso realizar una interrupción del bucle
     # En cada iteracion del bucle debe incrementar el valor de "x" en "2"
     # e imprimir en pantalla el resultado de X (antes de incrementar) con print
+
 
 def ej5():
     # Ejercicio de seuencias numéricas
@@ -97,6 +99,7 @@ def ej5():
     # for ... in range(....)
 
     # Imprimir el valor de la sumatoria
+
 
 def ej6():
     # Ejercicio de seuencias numéricas
@@ -126,4 +129,3 @@ if __name__ == '__main__':
     #ej4()
     #ej5()
     #ej6()
-
