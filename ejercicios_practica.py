@@ -5,9 +5,10 @@ Ejercicios de práctica
 ---------------------------
 Autor: Inove Coding School
 Version: 1.1
- 
+
 Descripcion:
-Programa creado para que practiquen los conocimietos adquiridos durante la semana
+Programa creado para que practiquen los conocimietos
+adquiridos durante la semana
 '''
 
 __author__ = "Inove Coding School"
@@ -21,6 +22,7 @@ notas = [70, 82, -1, 65, 55, 67, 87, 92, -1]
 temp_dataloger = [12.8, 18.6, 14.5, 20.8, 12.1, 21.2, 13.5, 18.6,
                   14.7, 19.6, 11.2, 18.4]
 
+
 def ej1():
     print('Comenzamos a ponernos serios!')
 
@@ -30,7 +32,7 @@ def ej1():
     Realizar un bucle "for" que recorra esa secuencia armada con "range"
     y cuante cuantes números ingresados hay y la sumatoria de todos los números
     Tener en cuenta que "range" no incluye el número de "fin" en su secuencia,
-    sino que va hasta el anterior        
+    sino que va hasta el anterior
     '''
 
     # inicio = ....
@@ -51,24 +53,28 @@ def ej2():
     print("Mi Calculadora (^_^)")
 
     '''
-    Tome el ejercicio de clase <condicionales_python /  ejercicios_practica / ej3>,
+    Tome el ejercicio de clase:
+    <condicionales_python /  ejercicios_practica / ej3>,
     copielo a este ejercicio y modifíquelo, ahora se deberá ejecutar
     indefinidamente hasta que como operador se ingrese la palabra "FIN",
     en ese momento debe terminar el programa
 
     Se debe debe imprimir un cartel de error si el operador ingresado no es
-    alguno de lo soportados o no es la palabra "FIN"   
+    alguno de lo soportados o no es la palabra "FIN"
     '''
+
 
 def ej3():
     print("Mi organizador académico (#_#)")
 
     '''
-    Tome el ejercicio de "calificaciones" <condicionales_python / ejercicios_clase / ej3>,
-    copielo a este ejercicio y modifíquelo para cumplir el siguiente requerimiento
+    Tome el ejercicio de "calificaciones":
+    <condicionales_python / ejercicios_clase / ej3>,
+    copielo a este ejercicio y modifíquelo para cumplir
+    el siguiente requerimiento
 
-    Las notas del estudinte se encuentran almacenadas en una lista llamada "notas"
-    que ya hemos definido al comienzo del archivo
+    Las notas del estudinte se encuentran almacenadas en una
+    lista llamada "notas" que ya hemos definido al comienzo del archivo
 
     Debe caluclar el promedio de todas las notas y luego transformar
     la califiación en una letra según la escala establecida en el ejercicio
@@ -90,7 +96,6 @@ def ej3():
     # Realice aquí el bucle para recorrer todas las notas
     # y cacular la sumatoria
 
-
     # Terminado el bucle calcule el promedio como
     # promedio = sumatoria / cantidad_notas
 
@@ -102,10 +107,12 @@ def ej3():
 
 def ej4():
     print("Mi primer pasito en data analytics")
-       
+
     '''
-    Tome el ejercicio <condicionales_python / ejercicios_practica /ej5>,
-    copielo a este ejercicio y modifíquelo para cumplir el siguiente requerimiento
+    Tome el ejercicio:
+    <condicionales_python / ejercicios_practica /ej5>,
+    copielo a este ejercicio y modifíquelo para cumplir el
+    siguiente requerimiento
 
     En este ejercicio se lo provee de una lista de temperatuas,
     esa lista de temperatuas corresponde a los valores de temperaturas
@@ -117,8 +124,8 @@ def ej4():
 
     Debe recorrer la lista "temp_dataloger" y obtener los siguientes
     resultados
-    
-    1 - Obtener la máxima temperatura 
+
+    1 - Obtener la máxima temperatura
     2 - Obtener la mínima temperatura
     3 - Obtener el promedio de las temperatuas
 
@@ -170,10 +177,12 @@ def ej4():
 
 def ej5():
     print("Ahora sí! buena suerte :)")
-    
+
     '''
-    Tome el ejercicio <condicionales_python / ejercicios_practica / ej4>,
-    copielo a este ejercicio y modifíquelo para cumplir el siguiente requerimiento
+    Tome el ejercicio:
+    <condicionales_python / ejercicios_practica / ej4>,
+    copielo a este ejercicio y modifíquelo para cumplir
+    el siguiente requerimiento
 
     Realize un programa que corra indefinidamente en un bucle, al comienzo de la
     iteración del bucle el programa consultará al usuario con el siguiente menú:
@@ -181,11 +190,13 @@ def ej5():
     2 - Ordenar por cantidad de letras (longitud de la palabra)
     3 - Salir del programa
 
-    En caso de presionar "3" el programa debe terminar e informar por pantalla de que ha acabado,
+    En caso de presionar "3" el programa debe terminar e informar por
+    pantalla de que ha acabado,
     en caso contrario si se presionar "1" o "2" debe continuar con la siguiente tarea
-    
-    NOTA: Si se ingresa otro valor que no sea 1, 2 o 3 se debe enviar un mensaje de error
-    y volver a comenzar el bucle (vea en el apunte "Bucles - Sentencias" para encontrar
+
+    NOTA: Si se ingresa otro valor que no sea 1, 2 o 3 se debe enviar
+    un mensaje de error y volver a comenzar el bucle
+    (vea en el apunte "Bucles - Sentencias" para encontrar
     la sentencia que lo ayude a cumplir esa tarea)
 
     Si el bucle continua (se presionó "1" o "2") se debe ingresar a otro bucle
@@ -197,28 +208,33 @@ def ej5():
     Luego de tener las palabras deseadas almacenadas en una lista de palabras
     se debe proceder a realizar las siguientes tareas:
 
-    Si se ingresa "1" por consola se debe obtener la palabra más grande por orden alfabético
-    Luego de terminar de recorrer toda la lista (utilizar un bucle "for") se debe imprimir
-    en pantalla cual era la palabra más grande alfabeticamente.
-    Recuerde que debe inicializar primero su variable donde irá almacenando la palabra
-    que cumpla dicha condición. ¿Con qué valor debería ser inicializada dicha variable?
+    Si se ingresa "1" por consola se debe obtener la palabra
+    más grande por orden alfabético
+    Luego de terminar de recorrer toda la lista (utilizar un bucle "for")
+    se debe imprimir en pantalla cual era la palabra
+    más grande alfabeticamente.
+    Recuerde que debe inicializar primero su variable
+    donde irá almacenando la palabra que cumpla dicha condición.
+    ¿Con qué valor debería ser inicializada dicha variable?
 
-    Si se ingresa "2" por consola se debe obtener la palabra con mayor cantidad de letras
-    Luego de terminar de recorrer toda la lista (utilizar un bucle "for") se debe imprimir
-    en pantalla cual era la palabra con mayor cantidad de letras.
-    Recuerde que debe inicializar primero su variable donde irá almacenando la palabra
-    que cumpla dicha condición. ¿Con qué valor debería ser inicializada dicha variable?
+    Si se ingresa "2" por consola se debe obtener la palabra
+    con mayor cantidad de letras
+    Luego de terminar de recorrer toda la lista (utilizar un bucle "for")
+    se debe imprimir en pantalla cual era la palabra con
+    mayor cantidad de letras.
+    Recuerde que debe inicializar primero su variable
+    donde irá almacenando la palabra que cumpla dicha condición.
+    ¿Con qué valor debería ser inicializada dicha variable?
 
-    NOTA: Es recomendable que se organice con lápiz y papel para hacer un bosquejo del sistema
-    ya que deberá utilizar 3 bucles en total,
+    NOTA: Es recomendable que se organice con lápiz y papel para
+    hacer un bosquejo del sistema ya que deberá utilizar 3 bucles en total,
     1 - El bucle principal que hace que el programa corra hasta ingresar un "3"
-    2 - Un bucle interno que corre hasta socilitar todas las palabras deseadas que se deben
-        ir guardando en una lista
-    3- Otro bucle interno que corre luego de que termine el bucle "2" que recorre la lista de
-    palabras y busca la mayor según el motivo ingresado ("1" o "2")
+    2 - Un bucle interno que corre hasta socilitar todas las palabras deseadas
+        que se deben ir guardando en una lista
+    3- Otro bucle interno que corre luego de que termine el bucle "2" que
+       recorre la lista de palabras y busca la mayor según el motivo ingresado ("1" o "2")
 
   '''
-
 
 
 if __name__ == '__main__':
