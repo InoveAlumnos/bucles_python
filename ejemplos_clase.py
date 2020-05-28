@@ -4,7 +4,7 @@ Bucles [Python]
 Ejemplos de clase
 ---------------------------
 Autor: Inove Coding School
-Version: 1.1
+Version: 1.2
 
 Descripcion:
 Programa creado para mostrar ejemplos prácticos de los visto durante la clase
@@ -12,7 +12,7 @@ Programa creado para mostrar ejemplos prácticos de los visto durante la clase
 
 __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
-__version__ = "1.1"
+__version__ = "1.2"
 
 valor_maximo = 5
 
@@ -55,7 +55,7 @@ def bucle_for():
     # Realizaremos el mismo caso que el primer ejemplo de "while"
     # pero ahora con el bucle "for"
     # Este bucle "for" caso es el indicado para este tipo de acciones
-    for x in range(5):
+    for x in range(valor_maximo):
         if x == 4:
             print('Bucle interrumpido en x=', x)
             break
@@ -139,8 +139,8 @@ def sumatoria():
         print("número = ", numero, "sumatoria =", sumatoria)
 
 
-def bucle_while_for():
-    # Ejemplos de bucles while + for
+def buscar_max():
+    # Ejemplos de bucles while
 
     # Como bien vimos, los bucles while "mientras"
     # se deben utilizar cuando no se conoce la secuencia que se recorrerá
@@ -170,7 +170,7 @@ def bucle_while_for():
 
         # Verifico si el número ingresado es mayor al
         # máximo número ingresado hasta el momento
-        if (maximo_numero == None) or (numero > maximo_numero):
+        if (maximo_numero is None) or (numero > maximo_numero):
             maximo_numero = numero
 
         lista_numeros.append(numero)
@@ -194,4 +194,4 @@ if __name__ == '__main__':
     bucle_for()
     contador()
     sumatoria()
-    bucle_while_for()
+    buscar_max()
