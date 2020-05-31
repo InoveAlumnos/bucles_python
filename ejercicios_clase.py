@@ -86,7 +86,7 @@ def ej4():
 
 
 def ej5():
-    # Ejercicio de seuencias numéricas
+    # Ejercicio de secuencias numéricas
     # Pedir por consola dos números que representen el principio y fin de una
     # secuencia numérica.
     # Realizar un bucle "for" que recorra esa secuencia armada con "range"
@@ -103,7 +103,7 @@ def ej5():
 
 
 def ej6():
-    # Ejercicio de seuencias numéricas
+    # Ejercicio de secuencias numéricas
     # Pedir por consola dos números que representen el principio y fin de una
     # secuencia numérica.
     # Realizar un bucle "for" que recorra esa secuencia armada con "range"
