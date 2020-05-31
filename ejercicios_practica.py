@@ -30,7 +30,7 @@ def ej1():
     Realice un programa que pida por consola dos números que representen
     el principio y fin de una secuencia numérica.
     Realizar un bucle "for" que recorra esa secuencia armada con "range"
-    y cuante cuantes números ingresados hay y la sumatoria de todos los números
+    y cuente cuantos números ingresados hay, y la sumatoria de todos los números
     Tener en cuenta que "range" no incluye el número de "fin" en su secuencia,
     sino que va hasta el anterior
     '''
