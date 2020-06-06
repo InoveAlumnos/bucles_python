@@ -130,7 +130,11 @@ def ej4():
     3 - Obtener el promedio de las temperatuas
 
     Los resultados se deberán almacenar en las siguientes variables
-    que ya hemos preparado para usted
+    que ya hemos preparado para usted.
+    
+    NOTA: No se debe ordenar la lista de temperaturas, se debe obtener
+    el máximo y el mínimo utilizando los mismos métodos vistos
+    durante la clase (ejemplos_clase)
     '''
 
     temperatura_max = None      # Aquí debe ir almacenando la temp máxima
@@ -225,6 +229,12 @@ def ej5():
     Recuerde que debe inicializar primero su variable
     donde irá almacenando la palabra que cumpla dicha condición.
     ¿Con qué valor debería ser inicializada dicha variable?
+    
+    NOTA: No se debe ordenar la lista de palabras, se debe obtener
+    el máximo utilizando el mismos métodos vistos durante la clase
+    (ejemplos_clase), tal como el ejercicio anterior. Ordenar una
+    lista representa un problema mucho más complejo que solo
+    buscar el máximo.
 
     NOTA: Es recomendable que se organice con lápiz y papel para
     hacer un bosquejo del sistema ya que deberá utilizar 3 bucles en total,
