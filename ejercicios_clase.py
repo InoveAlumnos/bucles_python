@@ -4,7 +4,7 @@ Bucles [Python]
 Ejercicios de clase
 ---------------------------
 Autor: Inove Coding School
-Version: 1.1
+Version: 1.2
 
 Descripcion:
 Programa creado para poner a prueba los conocimientos
@@ -13,7 +13,9 @@ adquiridos durante la clase
 
 __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
-__version__ = "1.1"
+__version__ = "1.2"
+
+condicion = False
 
 
 def ej1():
