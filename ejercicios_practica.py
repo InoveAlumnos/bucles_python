@@ -190,8 +190,8 @@ def ej5():
 
     Realize un programa que corra indefinidamente en un bucle, al comienzo de la
     iteración del bucle el programa consultará al usuario con el siguiente menú:
-    1 - Ordenar por orden alfabético (usando el operador ">")
-    2 - Ordenar por cantidad de letras (longitud de la palabra)
+    1 - Obtener la palabra más grande por orden alfabético (usando el operador ">")
+    2 - Obtener la palabra más grande por cantidad de letras (longitud de la palabra)
     3 - Salir del programa
 
     En caso de presionar "3" el programa debe terminar e informar por
