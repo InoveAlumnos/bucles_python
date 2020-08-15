@@ -34,7 +34,7 @@ def ej1():
     Tener en cuenta que "range" no incluye el número de "fin" en su secuencia,
     sino que va hasta el anterior
     '''
-
+    
     # inicio = ....
     # fin = ....
 
