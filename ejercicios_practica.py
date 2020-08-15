@@ -34,13 +34,16 @@ def ej1():
     Tener en cuenta que "range" no incluye el número de "fin" en su secuencia,
     sino que va hasta el anterior
     '''
-    
-    # inicio = ....
-    # fin = ....
+    inicio = int(input("Ingrese el primer numero de la secuencia\n"))
+    ultimo = int(input("Ingrese el ultimo numero de la secuencia\n"))
 
+    cantidad_numero = 0
+    sumatoria = 0
     # cantidad_numeros ....
     # sumatoria ....
 
+    for i in range(inicio, ultimo + 1):
+        print("La secuencia tiene")
     # bucle.....
 
     # Al terminar el bucle calcular el promedio como:
