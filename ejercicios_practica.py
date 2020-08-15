@@ -71,6 +71,30 @@ def ej2():
     alguno de lo soportados o no es la palabra "FIN"
     '''
 
+    while True:
+
+        print("Ingrese dos numeros:")
+        calc_1 = float(input())
+        calc_2 = float(input())
+
+        print("Ingrese el simbolo de la operacion que quiere realizar con estos dos numeros:")
+        operacion = str(input())
+
+        if operacion == "+":
+            print("El resultado de sumar {} con {} es {}".format(calc_1,calc_2, calc_1 + calc_2))
+        elif operacion == "-":
+            print("El resultado de restar {} con {} es {}".format(calc_1,calc_2, calc_1 - calc_2))
+        elif operacion == "*":
+            print("El resultado de multiplicar {} con {} es {}".format(calc_1,calc_2, calc_1 * calc_2))
+        elif operacion == "/":
+            print("El resultado de dividir {} con {} es {}".format(calc_1,calc_2, calc_1 / calc_2))
+        elif operacion == "**":
+            print("{} elevado a la potencia {} es {}".format(calc_1,calc_2, calc_1 ** calc_2))
+        elif operacion == "fin":
+            break
+        else:
+            print("El simbolo ingresado no corresponde a una operacion matematica")
+        
 
 def ej3():
     print("Mi organizador académico (#_#)")
@@ -93,6 +117,34 @@ def ej3():
 
     Debe contar la cantidad de notas válidas y la cantidad de ausentes
     '''
+
+    numero_1 = 7
+    numero_2 = -2
+
+    if numero_1 > 5:
+        if numero_2 > 0:
+            print("Resp=1")
+        else:
+            print("Resp=2")
+    elif numero_2 > 5:
+        print("Resp=3")
+    else:
+        print("Resp=4")
+
+    # Verifique la calificación de un estudiante según su
+    # puntaje en un examen
+    puntaje = 70
+
+    if puntaje >= 90:
+        print("A")
+    elif puntaje >= 80:
+        print("B")
+    elif puntaje >= 70:
+        print("C")
+    elif puntaje >= 60:
+        print("D")
+    elif puntaje <= 60:
+        print("F")
 
     # Para calcular el promedio primero debe obtener la suma
     # de todas las notas, que irá almacenando en esta variable
@@ -257,8 +309,8 @@ def ej5():
 
 if __name__ == '__main__':
     print("Ejercicios de práctica")
-    ej1()
+    #ej1()
     #ej2()
-    #ej3()
+    ej3()
     #ej4()
     #ej5()
