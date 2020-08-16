@@ -108,7 +108,7 @@ def ej3():
     Las notas del estudinte se encuentran almacenadas en una
     lista llamada "notas" que ya hemos definido al comienzo del archivo
 
-    Debe caluclar el promedio de todas las notas y luego transformar
+    Debe calcular el promedio de todas las notas y luego transformar
     la califiación en una letra según la escala establecida en el ejercicio
     "calificaciones" <condicionales_python / ejercicios_clase / ej3>
 
@@ -118,33 +118,10 @@ def ej3():
     Debe contar la cantidad de notas válidas y la cantidad de ausentes
     '''
 
-    numero_1 = 7
-    numero_2 = -2
-
-    if numero_1 > 5:
-        if numero_2 > 0:
-            print("Resp=1")
-        else:
-            print("Resp=2")
-    elif numero_2 > 5:
-        print("Resp=3")
-    else:
-        print("Resp=4")
-
     # Verifique la calificación de un estudiante según su
     # puntaje en un examen
-    puntaje = 70
 
-    if puntaje >= 90:
-        print("A")
-    elif puntaje >= 80:
-        print("B")
-    elif puntaje >= 70:
-        print("C")
-    elif puntaje >= 60:
-        print("D")
-    elif puntaje <= 60:
-        print("F")
+    notas = [4, 10, -7, 3, 8, 5, -2, 10, 7, 1]
 
     # Para calcular el promedio primero debe obtener la suma
     # de todas las notas, que irá almacenando en esta variable
@@ -156,14 +133,34 @@ def ej3():
     # Realice aquí el bucle para recorrer todas las notas
     # y cacular la sumatoria
 
+    for nota in notas:
+        if nota > 0:
+            cantidad_notas += 1
+            sumatoria += nota
+        else:
+            cantidad_ausentes += 1
+
     # Terminado el bucle calcule el promedio como
     # promedio = sumatoria / cantidad_notas
 
+    promedio = sumatoria / cantidad_notas
+    print("La nota promedio fue:", promedio)
     # Utilice la nota promedio calculada y transformela
     # a calificación con letras, imprima en pantalla el resultado
 
-    # Imprima en pantalla al cantidad de ausentes
+    if promedio >= 9:
+        print("Tu calificacion es una A")
+    elif promedio >= 8:
+        print("Tu calificacion es una B")
+    elif promedio >= 7:
+        print("Tu calificacion es una C")
+    elif promedio >= 6:
+        print("Tu calificacion es una D")
+    elif promedio <= 6:
+        print("Tu calificacion es una F")
 
+    # Imprima en pantalla al cantidad de ausentes
+    print("La cantidad de ausentes fue", cantidad_ausentes)
 
 def ej4():
     print("Mi primer pasito en data analytics")
@@ -311,6 +308,6 @@ if __name__ == '__main__':
     print("Ejercicios de práctica")
     #ej1()
     #ej2()
-    ej3()
-    #ej4()
+    #ej3()
+    ej4()
     #ej5()
