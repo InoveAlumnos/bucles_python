@@ -194,6 +194,8 @@ def ej4():
     durante la clase (ejemplos_clase)
     '''
 
+    temperaturas = [3 , 12, 9, 18, 20, 15, 5, 11]
+
     temperatura_max = None      # Aquí debe ir almacenando la temp máxima
     temperatura_min = None      # Aquí debe ir almacenando la temp mínima
     temperatura_sumatoria = 0   # Aquí debe ir almacenando la suma de todas las temp
@@ -201,6 +203,31 @@ def ej4():
     temperatura_len = 0         # Aquí debe almacenar cuantas temperatuas hay en la lista
 
     # Colocar el bucle aqui......
+
+    for temperatura in temperaturas:
+        if temperatura >= te
+	if temperatura_1 >= temperatura_2 and temperatura_1 >= temperatura_3:
+		print("{} es la mayor temperatura".format(temperatura_1))
+	elif temperatura_2 >= temperatura_1 and temperatura_2 >= temperatura_3:
+		print("{} es la mayor temperatura".format(temperatura_2))
+	elif temperatura_3 >= temperatura_1 and temperatura_3 >= temperatura_1:
+		print("{} es la mayor temperatura".format(temperatura_3))
+	
+	#Temperatura minima
+
+	if temperatura_1 <= temperatura_2 and temperatura_1 <= temperatura_3:
+		print("{} es la menor temperatura".format(temperatura_1))
+	elif temperatura_2 <= temperatura_1 and temperatura_2 <= temperatura_3:
+		print("{} es la menor temperatura".format(temperatura_2))
+	elif temperatura_3 <= temperatura_1 and temperatura_3 <= temperatura_1:
+		print("{} es la menor temperatura".format(temperatura_3))
+
+	#Promedio
+
+	promedio = ( temperatura_1 + temperatura_2 + temperatura_3 ) / 3
+
+	print("La temperatura promedio es {}".format(promedio))
+
 
     # Al finalizar el bucle compare si el valor que usted calculó para
     # temperatura_max y temperatura_min coincide con el que podría calcular
