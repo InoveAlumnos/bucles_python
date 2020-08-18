@@ -42,6 +42,13 @@ def ej1():
     # cantidad_numeros ....
     # sumatoria ....
 
+    # Inove: Un comentario respecot a cantidad_numero, como
+    # la cantidad de números no varía se puede calcular
+    # una sola vez antes de empezar el bucle o al terminarlo:
+    # cantidad_numero = ultimo - inicio
+    # Es solo un comentario al pasar, queramos que pruebes
+    # el mecanismo de pull-request
+    
     for i in range(inicio, ultimo + 1):
         cantidad_numero = ultimo - inicio
         sumatoria += i
