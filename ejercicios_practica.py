@@ -121,7 +121,6 @@ def ej3():
     # Verifique la calificación de un estudiante según su
     # puntaje en un examen
 
-    notas = [4, 10, -7, 3, 8, 5, -2, 10, 7, 1]
 
     # Para calcular el promedio primero debe obtener la suma
     # de todas las notas, que irá almacenando en esta variable
@@ -148,15 +147,15 @@ def ej3():
     # Utilice la nota promedio calculada y transformela
     # a calificación con letras, imprima en pantalla el resultado
 
-    if promedio >= 9:
+    if promedio >= 90:
         print("Tu calificacion es una A")
-    elif promedio >= 8:
+    elif promedio >= 80:
         print("Tu calificacion es una B")
-    elif promedio >= 7:
+    elif promedio >= 70:
         print("Tu calificacion es una C")
-    elif promedio >= 6:
+    elif promedio >= 60:
         print("Tu calificacion es una D")
-    elif promedio <= 6:
+    elif promedio <= 60:
         print("Tu calificacion es una F")
 
     # Imprima en pantalla al cantidad de ausentes
@@ -188,14 +187,12 @@ def ej4():
 
     Los resultados se deberán almacenar en las siguientes variables
     que ya hemos preparado para usted.
-    
+
     NOTA: No se debe ordenar la lista de temperaturas, se debe obtener
     el máximo y el mínimo utilizando los mismos métodos vistos
     durante la clase (ejemplos_clase)
     '''
-
-    temperaturas = [3 , 12, 9, 18, 20, 15, 5, 11]
-
+    print("Las temperaturas son C°:", temp_dataloger)
     temperatura_max = None      # Aquí debe ir almacenando la temp máxima
     temperatura_min = None      # Aquí debe ir almacenando la temp mínima
     temperatura_sumatoria = 0   # Aquí debe ir almacenando la suma de todas las temp
@@ -204,30 +201,18 @@ def ej4():
 
     # Colocar el bucle aqui......
 
-    for temperatura in temperaturas:
-        if temperatura >= te
-	if temperatura_1 >= temperatura_2 and temperatura_1 >= temperatura_3:
-		print("{} es la mayor temperatura".format(temperatura_1))
-	elif temperatura_2 >= temperatura_1 and temperatura_2 >= temperatura_3:
-		print("{} es la mayor temperatura".format(temperatura_2))
-	elif temperatura_3 >= temperatura_1 and temperatura_3 >= temperatura_1:
-		print("{} es la mayor temperatura".format(temperatura_3))
-	
-	#Temperatura minima
+    for i in range(len(temp_dataloger)):
+        if temperatura_min == None or temp_dataloger[i] < temperatura_min:
+            temperatura_min = temp_dataloger[i]
+        elif temperatura_max == None or temp_dataloger[i] > temperatura_max:
+            temperatura_max = temp_dataloger[i]
+        temperatura_sumatoria += temp_dataloger[i]
+        temperatura_len += 1
+    print("Temperatura maxima:", temperatura_max)
+    print("Temperatura minima:", temperatura_min)
 
-	if temperatura_1 <= temperatura_2 and temperatura_1 <= temperatura_3:
-		print("{} es la menor temperatura".format(temperatura_1))
-	elif temperatura_2 <= temperatura_1 and temperatura_2 <= temperatura_3:
-		print("{} es la menor temperatura".format(temperatura_2))
-	elif temperatura_3 <= temperatura_1 and temperatura_3 <= temperatura_1:
-		print("{} es la menor temperatura".format(temperatura_3))
-
-	#Promedio
-
-	promedio = ( temperatura_1 + temperatura_2 + temperatura_3 ) / 3
-
-	print("La temperatura promedio es {}".format(promedio))
-
+    temperatura_promedio = temperatura_sumatoria / temperatura_len
+    print("Temperatura promedio:", temperatura_promedio)
 
     # Al finalizar el bucle compare si el valor que usted calculó para
     # temperatura_max y temperatura_min coincide con el que podría calcular
@@ -235,6 +220,10 @@ def ej4():
     # función "max" --> https://www.w3schools.com/python/ref_func_max.asp
     # función "min" --> https://www.w3schools.com/python/ref_func_min.asp
 
+    print("Temperatura maxima usando funcion max: {}".format(max(temp_dataloger)))
+    print("Temperatura minima usando funcion min: {}".format(min(temp_dataloger)))
+    print("Sumatoria de las temperaturas {}".format(temperatura_sumatoria))
+    print("Sumatorias de las temperaturas usando la funcion sum {}".format(sum(temp_dataloger)))
     # Al finalizar el bucle debe calcular el promedio como:
     # temperatura_promedio = temperatura_sumatoria / cantidad_temperatuas
 
@@ -256,6 +245,14 @@ def ej4():
     Referencia:
     https://es.weatherspark.com/y/28981/Clima-promedio-en-Buenos-Aires-Argentina-durante-todo-el-a%C3%B1o
     '''
+    if temperatura_min > 19 and temperatura_max < 28:
+        print("Estamos en verano")
+    elif temperatura_min > 11 and temperatura_max < 24:
+        print("Estamos en otoño")
+    elif temperatura_min > 8 and temperatura_max < 14:
+        print("Estamos en invierno")
+    elif temperatura_min > 10 and temperatura_max < 24:
+        print("Estamos en primavera")
 
     # En base a los rangos de temperatura de cada estación,
     # ¿En qué época del año nos encontramos?
@@ -313,7 +310,7 @@ def ej5():
     Recuerde que debe inicializar primero su variable
     donde irá almacenando la palabra que cumpla dicha condición.
     ¿Con qué valor debería ser inicializada dicha variable?
-    
+
     NOTA: No se debe ordenar la lista de palabras, se debe obtener
     el máximo utilizando el mismos métodos vistos durante la clase
     (ejemplos_clase), tal como el ejercicio anterior. Ordenar una
@@ -328,13 +325,43 @@ def ej5():
     3- Otro bucle interno que corre luego de que termine el bucle "2" que
        recorre la lista de palabras y busca la mayor según el motivo ingresado ("1" o "2")
 
-  '''
+    '''
+
+    palabras = []
+
+    while True:
+        ordenar = int(input("Escriba como desea ordenar las palabras: \n 1) Alfabeticamente \n 2) Cantidad de letras \n 3) Terminar \n"))
+
+        if ordenar == 1 or ordenar == 2:
+            palabras_deseadas = int(input("Ingrese la cantidad de palabras que desea ordenar:"))
+            if ordenar == 1:    
+                for i in range(palabras_deseadas):
+                    palabra = str(input("Ingrese una palabra: "))
+                    palabras.append(palabra)
+                palabra_mayor = None
+                for n in palabras:
+                    if n == palabras[0] or n > palabra_mayor:
+                        palabra_mayor = n
+                print("Alfabeticamente la mayor palabra es:", palabra_mayor)
+            elif ordenar == 2:
+                for i in range(palabras_deseadas):
+                    palabra = str(input("Ingrese una palabra: "))
+                    palabras.append(palabra)
+                palabra_mayor = None
+                for n in palabras:
+                    if n == palabras[0] or len(n) > len(palabra_mayor):
+                        palabra_mayor = n
+                print("La mayor palabra por cantidad de letras es:", palabra_mayor)
+        elif ordenar == 3:
+            break
+        else:
+            print("El numero solicitado no esta permitido")
 
 
 if __name__ == '__main__':
     print("Ejercicios de práctica")
-    #ej1()
-    #ej2()
-    #ej3()
+    ej1()
+    ej2()
+    ej3()
     ej4()
-    #ej5()
+    ej5()
