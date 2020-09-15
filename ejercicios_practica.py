@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 '''
 Bucles [Python]
-Ejercicios de clase
+Ejercicios de práctica
 ---------------------------
 Autor: Inove Coding School
 Version: 1.2
