@@ -54,7 +54,7 @@ def ej2():
 
     '''
     Tome el ejercicio de clase:
-    <condicionales_python /  ejercicios_practica / ej3>,
+    <condicionales_python /  ejercicios_profundizacion / ej3>,
     copielo a este ejercicio y modifíquelo, ahora se deberá ejecutar
     indefinidamente hasta que como operador se ingrese la palabra "FIN",
     en ese momento debe terminar el programa
@@ -69,7 +69,7 @@ def ej3():
 
     '''
     Tome el ejercicio de "calificaciones":
-    <condicionales_python / ejercicios_clase / ej3>,
+    <condicionales_python / ejercicios_practica / ej3>,
     copielo a este ejercicio y modifíquelo para cumplir
     el siguiente requerimiento
 
@@ -78,7 +78,7 @@ def ej3():
 
     Debe caluclar el promedio de todas las notas y luego transformar
     la califiación en una letra según la escala establecida en el ejercicio
-    "calificaciones" <condicionales_python / ejercicios_clase / ej3>
+    "calificaciones" <condicionales_python / ejercicios_practica / ej3>
 
     A medida que recorre las notas, no debe considerar como válidas aquellas
     que son negativas, en ese caso el alumno estuvo ausente
@@ -110,7 +110,7 @@ def ej4():
 
     '''
     Tome el ejercicio:
-    <condicionales_python / ejercicios_practica /ej5>,
+    <condicionales_python / ejercicios_profundizacion /ej5>,
     copielo a este ejercicio y modifíquelo para cumplir el
     siguiente requerimiento
 
@@ -184,7 +184,7 @@ def ej5():
 
     '''
     Tome el ejercicio:
-    <condicionales_python / ejercicios_practica / ej4>,
+    <condicionales_python / ejercicios_profundizacion / ej4>,
     copielo a este ejercicio y modifíquelo para cumplir
     el siguiente requerimiento
 
