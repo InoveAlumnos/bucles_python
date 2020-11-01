@@ -165,7 +165,7 @@ def ej4():
     las siguientes aproximaciones:
 
     verano -->      min = 19, max = 28
-    otoño -->       min = 11, max = 24
+    otoño -->       min = 11, max = 20
     invierno -->    min = 8, max = 14
     primavera -->   min = 10, max = 24
 
