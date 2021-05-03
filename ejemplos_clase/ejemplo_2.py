@@ -16,11 +16,7 @@ for x in range(valor_maximo):
         print('Bucle interrumpido en x=', x)
         break
 
-    # Si x es par, continuo el bucle sin terminarlo
-    if (x % 2) == 0:
-        continue
-
-    print(x, 'es menor a', valor_maximo)
+    print('Valor x=', x)
 
 # Ahora recorreremos (iterar) una lista de datos en donde
 # en los índices pares (0, 2, 4) se encuentran los nombres de los contactos

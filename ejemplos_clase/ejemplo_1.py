@@ -22,16 +22,9 @@ while x < valor_maximo:
         print('Bucle interrumpido en x=', x)
         break
 
-    x_aux = x   # Guardamos en una variable auxiliar (aux) el valor de x
+    print('Valor x=', x)
     x += 1      # Incrementamos el valor de x para que el bucle avance
 
-    # Si x es par, continuo el bucle sin terminarlo
-    if (x_aux % 2) == 0:
-        continue
-
-    # Imprimimos en pantalla el valorde x_aux,
-    # que era el valor de x antes de incrementarlo
-    print(x_aux, 'es menor a', valor_maximo)
 
 while True:
     print('Ingrese un número distinto de cero!')
@@ -40,6 +33,7 @@ while True:
     if numero == 0:
         print('Se acabó el juego! numero={}'.format(numero))
         break
+
     print('Número ingresado={}'.format(numero))
 
 print("terminamos!")
