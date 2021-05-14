@@ -17,11 +17,6 @@ temp_dataloger = [12.8, 18.6, 14.5, 20.8, 12.1, 21.2, 13.5, 18.6,
 
 '''
 Enunciado:
-Tome el ejercicio:
-<condicionales_python / ejercicios_profundizacion /profundizacion_3.py>,
-copielo a este ejercicio y modifíquelo para cumplir el
-siguiente requerimiento
-
 En este ejercicio se lo provee de una lista de temperatuas,
 esa lista de temperatuas corresponde a los valores de temperaturas
 tomados durante una temperorada del año en Buenos Aires.
@@ -37,12 +32,12 @@ resultados
 2 - Obtener la mínima temperatura
 3 - Obtener el promedio de las temperatuas
 
-Los resultados se deberán almacenar en las siguientes variables
-que ya hemos preparado para usted.
+Los resultados se deberán almacenar en las variables
+que ya hemos preparado para usted al comienzo del ejercicio
 
 NOTA: No se debe ordenar la lista de temperaturas, se debe obtener
 el máximo y el mínimo utilizando los mismos métodos vistos
-durante la clase (ejemplos_clase)
+durante la clase (ejemplos_clase/ejemplo_5.py)
 '''
 
 print("Mi primer pasito en data analytics")
