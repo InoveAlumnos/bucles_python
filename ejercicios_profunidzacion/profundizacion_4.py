@@ -18,7 +18,7 @@ temp_dataloger = [12.8, 18.6, 14.5, 20.8, 12.1, 21.2, 13.5, 18.6,
 '''
 Enunciado:
 Tome el ejercicio:
-<condicionales_python / ejercicios_profundizacion /ejercicio_5.py>,
+<condicionales_python / ejercicios_profundizacion /profundizacion_3.py>,
 copielo a este ejercicio y modifíquelo para cumplir el
 siguiente requerimiento
 
