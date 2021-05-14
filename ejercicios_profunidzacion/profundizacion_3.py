@@ -16,17 +16,19 @@ notas = [70, 82, -1, 65, 55, 67, 87, 92, -1]
 
 '''
 Enunciado:
-Tome el ejercicio de "calificaciones":
-<condicionales_python / ejercicios_practica / profundizacion_3.py>,
-copielo a este ejercicio y modifíquelo para cumplir
-el siguiente requerimiento
+Similar al ejercicio de "calificaciones":
 
-Las notas del estudinte se encuentran almacenadas en una
-lista llamada "notas" que ya hemos definido al comienzo del archivo
+Debe caluclar el promedio de todas las notas que se encuentra
+almacenadas en una lista llamada "notas" que ya
+hemos definido al comienzo del archivo
 
-Debe caluclar el promedio de todas las notas y luego transformar
-la califiación en una letra según la escala establecida en el ejercicio
-"calificaciones" <condicionales_python / ejercicios_practica / ejercicio_3.py>
+Luego transformar la califiación en una letra
+según la siguiente escala:
+- Si el puntaje es mayor igual a 90 --> imprimir A
+- Si el puntaje es mayor igual a 80 --> imprimir B
+- Si el puntaje es mayor igual a 70 --> imprimir C
+- Si el puntaje es mayor igual a 60 --> imprimir D
+- Si el puntaje es menor a  60      --> imprimir F
 
 A medida que recorre las notas, no debe considerar como válidas aquellas
 que son negativas, en ese caso el alumno estuvo ausente
