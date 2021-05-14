@@ -14,11 +14,20 @@
 
 '''
 Enunciado:
-Tome el ejercicio de clase:
-<condicionales_python /  ejercicios_profundizacion / profundizacion_3.py>,
-copielo a este ejercicio y modifíquelo, ahora se deberá ejecutar
-indefinidamente hasta que como operador se ingrese la palabra "FIN",
-en ese momento debe terminar el programa
+Realice una calculadora:
+Dentro de un bucle se debe ingresar por línea de comando dos números
+Luego se ingresará como tercera entrada al programa el símbolo de la operación
+que se desea ejecutar:
+- Suma (+)
+- Resta (-)
+- Multiplicación (*)
+- División (/)
+- Exponente/Potencia (**)
+Se debe efectuar el cálculo correcto según la operación ingresada por consola
+Imprimir en pantalla la operación realizada y el resultado
+
+El programa se debe repetir dentro del bucle hasta que como operador
+se ingrese la palabra "FIN", en ese momento debe terminar el programa
 
 Se debe debe imprimir un cartel de error si el operador ingresado no es
 alguno de lo soportados o no es la palabra "FIN".
