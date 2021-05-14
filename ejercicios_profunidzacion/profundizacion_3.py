@@ -10,6 +10,8 @@
 # de mucho más tiempo para abordar estos temas por su cuenta.
 # Requiere mayor tiempo de dedicación e investigación autodidacta.
 
+notas = [70, 82, -1, 65, 55, 67, 87, 92, -1]
+
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
 '''
