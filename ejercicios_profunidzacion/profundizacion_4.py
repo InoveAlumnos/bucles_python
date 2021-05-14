@@ -30,7 +30,7 @@ resultados
 
 1 - Obtener la máxima temperatura
 2 - Obtener la mínima temperatura
-3 - Obtener el promedio de las temperatuas
+3 - Obtener el promedio de las temperaturas
 
 Los resultados se deberán almacenar en las variables
 que ya hemos preparado para usted al comienzo del ejercicio
