@@ -17,10 +17,10 @@ temp_dataloger = [12.8, 18.6, 14.5, 20.8, 12.1, 21.2, 13.5, 18.6,
 
 '''
 Enunciado:
-En este ejercicio se lo provee de una lista de temperatuas,
-esa lista de temperatuas corresponde a los valores de temperaturas
+En este ejercicio se lo provee de una lista de temperaturas,
+esa lista de temperaturas corresponde a los valores de temperaturas
 tomados durante una temperorada del año en Buenos Aires.
-Ustede deberá analizar dicha lista para deducir
+Usted deberá analizar dicha lista para deducir
 en que temporada del año se realizó el muestreo de temperatura.
 La variable con la lista de temperaturas se llama "temp_dataloger"
 definida al comienzo del archivo
