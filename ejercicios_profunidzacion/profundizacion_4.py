@@ -10,6 +10,9 @@
 # de mucho más tiempo para abordar estos temas por su cuenta.
 # Requiere mayor tiempo de dedicación e investigación autodidacta.
 
+temp_dataloger = [12.8, 18.6, 14.5, 20.8, 12.1, 21.2, 13.5, 18.6,
+                  14.7, 19.6, 11.2, 18.4]
+
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
 '''
