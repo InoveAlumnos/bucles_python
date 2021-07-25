@@ -12,10 +12,6 @@
 valor_maximo = 5
 
 for x in range(valor_maximo):
-    if x == 4:
-        print('Bucle interrumpido en x=', x)
-        break
-
     print('Valor x=', x)
 
 # Ahora recorreremos (iterar) una lista de datos en donde
