@@ -20,7 +20,6 @@ inicio = int(input('Ingrese el primer número de la secuencia\n'))
 fin = int(input('Ingrese el último número de la secuencia\n'))
 
 cantidad_numeros_positivos = 0  # Inicializo el contador en 0
-#cantidad_numeros_negativos
 
 # for ... in range(....)
 
