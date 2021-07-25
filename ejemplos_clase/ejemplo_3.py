@@ -27,6 +27,7 @@ while True:
             print("Contador =", contador)
     else:
         # Terminó el bucle
+        print("Número ingresado negativo, termina el bucle")
         break
 
 print("terminamos!")
