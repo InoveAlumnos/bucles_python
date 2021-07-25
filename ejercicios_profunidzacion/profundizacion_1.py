@@ -17,7 +17,9 @@ Enunciado:
 Realice un programa que pida por consola dos números que representen
 el principio y fin de una secuencia numérica.
 Realizar un bucle "for" que recorra esa secuencia armada con "range"
-y cuente cuantos números ingresados hay, y la sumatoria de todos los números
+y cuente cuantos números ingresados hay, y la sumatoria de todos los números.
+Al finalizar el bucle, utilice la variable "cantidad_numeros" y la variable
+"sumatoria" para calcular el promedio de todos los números ingresados.
 Tener en cuenta que "range" no incluye el número de "fin" en su secuencia,
 sino que va hasta el anterior.
 '''
