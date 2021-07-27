@@ -13,9 +13,15 @@ while x < 5:
     print('Valor x=', x)
     x +=1   # Incrementar x en 1
 
+print('terminó el bucle while')
+    
 # En este caso realizaremos un bucle mientras
 # x sea menor a 5
 valor_maximo = 5
+
+# Volvemos a iniciar x en un valor, pero
+# para variar x iniciará en 2
+x = 2
 
 while x < valor_maximo:
     if x == 4:
@@ -31,9 +37,9 @@ while True:
     numero = int(input())
 
     if numero == 0:
-        print('Se acabó el juego! numero={}'.format(numero))
+        print('Se acabó el juego! numero =', numero)
         break
 
-    print('Número ingresado={}'.format(numero))
+    print('Número ingresado =', numero)
 
 print("terminamos!")
