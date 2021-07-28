@@ -22,9 +22,9 @@
 maximo_numero = None
 lista_numeros = []
 
-print("Ingrese un número mayor o igual a cero")
 while True:
     # Tomamos el valor de la consola
+    print("Ingrese un número mayor o igual a cero")
     numero = int(input())
 
     # Verificamos si el número es negativo
