@@ -31,4 +31,5 @@ while True:
         print("Número ingresado negativo, termina el bucle")
         break
 
+print("¿Cuántos números pares ingresó el usuario?", contador)
 print("terminamos!")
