@@ -30,4 +30,5 @@ for numero in numeros:
     sumatoria += numero     # sumatoria = sumatoria + numero
     print("número = ", numero, "sumatoria =", sumatoria)
 
+print("El valor final de la sumatoria de todos los números es:", sumatoria)
 print("terminamos!")
