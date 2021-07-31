@@ -19,7 +19,7 @@ condicion = False
 # reemplace "condicion" por lo que crea necesario
 while condicion:    
     print("Valor de x =", x)
-    # Coloque la línea de código para que "X" incremente "1"
+    # Coloque la línea de código para que "x" incremente "1"
 
 x = 5
 # Dado el siguiente "while", complete la condicion
@@ -29,6 +29,6 @@ x = 5
 
 while condicion:    # reemplace "condicion" por lo que crea necesario
     print("Valor de x =", x)
-    # Coloque la línea de código para que "X" decremente "1"
+    # Coloque la línea de código para que "x" decremente "1"
 
 print("terminamos!")
