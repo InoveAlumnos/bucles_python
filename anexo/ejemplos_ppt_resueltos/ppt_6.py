@@ -2,12 +2,13 @@
 # Ejemplos de clase
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # Ejemplos con bucle While infinito + break
 
 while True:
-    entrada = str(input("Ingrese SALIR para terminar el bucle:\n"))
+    print("Ingrese SALIR para terminar el bucle")
+    entrada = str(input())
     # Pasar a minúsculas
     entrada = entrada.lower()
     if entrada == "salir":

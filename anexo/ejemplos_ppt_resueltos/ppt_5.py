@@ -2,7 +2,7 @@
 # Ejemplos de clase
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # Ejemplos con bucles y listas
 invitados = ["Manuel", "Ana", "Juan", "Laura"]

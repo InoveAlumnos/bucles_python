@@ -19,9 +19,11 @@ suma_edades = 0
 # acumule en la variable "suma_edades" (+=)
 # la suma de todas las edades
 
+for edad in edades:
+    suma_edades += edad
 
 # Imprimir en pantalla la suma total de edades
-
+print(suma_edades)
 
 # NOTA:
 # Más adelante veremos que con la función

@@ -20,3 +20,8 @@ edades = [35, 38, 55, 33]
 # En cada iteración imprimir el nombre
 # y la edad de la persona
 
+for i in range(len(edades)):
+    invitado = invitados[i]
+    edad = edades[i]
+    print(f"{invitado} tiene {edad} años")
+
