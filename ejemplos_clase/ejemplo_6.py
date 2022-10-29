@@ -11,18 +11,30 @@
 # que finalice (break) cuando se
 # ingrese correctamente lo solicitado
 # en consola
-
 while True:
-    entrada = input("Ingrese la palabra PYTHON:\n")
-    entrada = entrada.lower()
+    print("Ingrese operación a realizar:")
+    print("1- Suma")
+    print("2- Resta")
+    operacion = str(input())
 
-    if entrada == "python":
-        print("¡Muchas gracias!, termina el bucle")
+    if operacion == "1" or operacion == "2":
+        print("¡Se termina el bucle!")
         break
+    else:
+        print("Palabra ingresada incorrecta, vuelva a intentar")
 
-    print("Palabra ingresada incorrecta, vuelva a intentar")
+print(f"Operación a realizar: {operacion}")
+numero_1 = int(input("Ingrese el primer número\n"))
+numero_2 = int(input("Ingrese el segundo número\n"))
 
-print("Valor ingresado en el bucle:", entrada)
+if operacion == "1":
+    resultado = numero_1 + numero_2
+elif operacion == "2":
+    resultado = numero_1 - numero_2
+else:
+    print("Algo salio mal en el bucle...")
+
+print(f"El resultado es: {resultado}")
 print("FIN")
 
 
