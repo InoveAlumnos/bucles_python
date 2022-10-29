@@ -2,33 +2,39 @@
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # IMPORTANTE: NO borrar los comentarios
 # que aparecen en verde con el hashtag "#"
 
-# Ejercicios con bucles "while"
+# Ejercicios con listas
 
-x = 0
-# Dado el siguiente "while", complete la condicion
-# para que el "while" itere siempre que <x sea menor a 6>
-# Además, complete la línea de código necesaria para que
-# el valor de "x" incremente "1" en cada iteración
-condicion = False
+# Objetivo:
+# Armar una lista de contenga los temas
+# que ha vistoen este curso.
+# Podrá armar la lista inicialzandola
+# con los valores solicitados
+# o empezando con una lista vacia y agregar
+# cada valor con append
 
-# reemplace "condicion" por lo que crea necesario
-while condicion:    
-    print("Valor de x =", x)
-    # Coloque la línea de código para que "x" incremente "1"
+# Alumno:
+# Crear una variable del tipo lista
+# llamada contenidos_curso
+# En dicha variable deberá almacenar los siguientes
+# elementos tipo texto en el siguiente orden:
 
-x = 5
-# Dado el siguiente "while", complete la condicion
-# para que el "while" itere siempre que <x sea mayor o igual a 0>
-# Además, complete la línea de código necesaria para que
-# el valor de "x" decremente "1" en cada iteración
+# python
+# variables
+# condicionales
+# listas
+# bucles
 
-while condicion:    # reemplace "condicion" por lo que crea necesario
-    print("Valor de x =", x)
-    # Coloque la línea de código para que "x" decremente "1"
+contenidos_curso = []
+contenidos_curso.append("python")
+contenidos_curso.append("variables")
+contenidos_curso.append("condicionales")
+contenidos_curso.append("listas")
+contenidos_curso.append("bucles")
 
-print("terminamos!")
+# Imprimir en pantalla la variable contenidos_curso
+print(contenidos_curso)

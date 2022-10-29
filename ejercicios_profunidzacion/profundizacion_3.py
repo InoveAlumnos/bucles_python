@@ -2,7 +2,7 @@
 # Ejercicios de profundización
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # NOTA: 
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
@@ -10,49 +10,51 @@
 # de mucho más tiempo para abordar estos temas por su cuenta.
 # Requiere mayor tiempo de dedicación e investigación autodidacta.
 
-notas = [70, 82, -1, 65, 55, 67, 87, 92, -1]
-
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
+# Ejercicios de práctica con listas y funciones
 '''
 Enunciado:
-Similar al ejercicio de "calificaciones":
+- Realizar un programa que calcule la temperatura
+  promedio, máxima y mínima sin bucles.
+- Ya cuenta con la variable temperaturas
 
-Debe caluclar el promedio de todas las notas que se encuentra
-almacenadas en una lista llamada "notas" que ya
-hemos definido al comienzo del archivo
+Alumno:
+- Crear una una variable llamada suma_total
+  para almacenar la suma de todas las temperatruas
+  que se encuentran en la lista.
+  Utilice la función de python "sum" para calcular
+  el valor de la suma_total
 
-Luego transformar la califiación en una letra
-según la siguiente escala:
-- Si el puntaje es mayor igual a 90 --> imprimir A
-- Si el puntaje es mayor igual a 80 --> imprimir B
-- Si el puntaje es mayor igual a 70 --> imprimir C
-- Si el puntaje es mayor igual a 60 --> imprimir D
-- Si el puntaje es menor a  60      --> imprimir F
+- Crear una una variable llamada cantidad_temperaturas
+  para almacenar la cantidad de registros de tempereturas,
+  es decir, la cantidad de elementos que hay en la
+  variable lista temperaturas.
+  Utilice la función len para obtener esta cantidad
 
-A medida que recorre las notas, no debe considerar como válidas aquellas
-que son negativas, en ese caso el alumno estuvo ausente
+- Calcular el promedio de temperatura del día
+  realizando la división entre la suma total de
+  temperaturas (suma_total) y la cantidad
+  de registros de temperetura (cantidad_temperaturas)
+  Almacene el resultado del promedio en una variable
+  llamada promedio.
 
-Debe contar la cantidad de notas válidas y la cantidad de ausentes
+- Crear una una variable llamada temperatura_max
+  para almacenar la máxima temperatura
+  que se encuentran en la lista.
+  Utilice la función de python "max" para calcular
+  el valor de la temperatura_max
+
+- Crear una una variable llamada temperatura_min
+  para almacenar la mínima temperatura
+  que se encuentran en la lista.
+  Utilice la función de python "min" para calcular
+  el valor de la temperatura_min
+
+- Al final imprimir en pantalla todas las variables
 '''
 
-print("Mi organizador académico (#_#)")
+print('¡Estado del clima aumentado!')
 # Empezar aquí la resolución del ejercicio
-
-# Para calcular el promedio primero debe obtener la suma
-# de todas las notas, que irá almacenando en esta variable
-sumatoria = 0           # Ya le hemos inicializado en 0
-
-cantidad_notas = 0      # Aquí debe contar cuantas notas válidas encontró
-cantidad_ausentes = 0   # Aquí debe contar cuantos ausentes hubo
-
-# Realice aquí el bucle para recorrer todas las notas
-# y cacular la sumatoria
-
-# Terminado el bucle calcule el promedio como
-# promedio = sumatoria / cantidad_notas
-
-# Utilice la nota promedio calculada y transformela
-# a calificación con letras, imprima en pantalla el resultado
-
-# Imprima en pantalla al cantidad de ausentes
+temperaturas = [12.8, 18.6, 14.5, 27.8, 12.1, 26.2, 13.5, 18.6,
+                  14.7, 19.6, 21.2, 31.4]

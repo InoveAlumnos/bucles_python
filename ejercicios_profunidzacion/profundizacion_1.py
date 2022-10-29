@@ -2,7 +2,7 @@
 # Ejercicios de profundización
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # NOTA: 
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
@@ -12,30 +12,37 @@
 
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
+# Ejercicios de práctica con listas y bucles
 '''
 Enunciado:
-Realice un programa que pida por consola dos números que representen
-el principio y fin de una secuencia numérica.
-Realizar un bucle "for" que recorra esa secuencia armada con "range"
-y cuente cuantos números ingresados hay, y la sumatoria de todos los números.
-Al finalizar el bucle, utilice la variable "cantidad_numeros" y la variable
-"sumatoria" para calcular el promedio de todos los números ingresados.
-Tener en cuenta que "range" no incluye el número de "fin" en su secuencia,
-sino que va hasta el anterior.
+- Realizar un programa que calcule la temperatura
+  promedio que se degistró durante el día.
+- Ya cuenta con la variable temperaturas
+
+Alumno:
+- Crear una una variable llamada suma_total
+  para almacenar la suma de todas las temperatruas
+  que se encuentran en la lista.
+  Utilice un bucle y el operador incremento en cada
+  iteración para lograr calcular la suma
+
+- Crear una una variable llamada cantidad_temperaturas
+  para almacenar la cantidad de registros de tempereturas,
+  es decir, la cantidad de elementos que hay en la
+  variable lista temperaturas.
+  Utilice la función len para obtener esta cantidad
+
+- Calcular el promedio de temperatura del día
+  realizando la división entre la suma total de
+  temperaturas (suma_total) y la cantidad
+  de registros de temperetura (cantidad_temperaturas)
+  Almacene el resultado del promedio en una variable
+  llamada promedio.
+
+- Al final imprimir en pantalla todas las variables
 '''
 
-print('Comenzamos a ponernos serios!')
+print('Estado del clima')
 # Empezar aquí la resolución del ejercicio
-
-# inicio = ....
-# fin = ....
-
-# cantidad_numeros ....
-# sumatoria ....
-
-# bucle.....
-
-# Al terminar el bucle calcular el promedio como:
-# promedio = sumatoria / cantidad_numeros
-
-# Imprimir resultado en pantalla
+temperaturas = [12.8, 18.6, 14.5, 27.8, 12.1, 26.2, 13.5, 18.6,
+                  14.7, 19.6, 21.2, 31.4]

@@ -2,25 +2,38 @@
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # IMPORTANTE: NO borrar los comentarios
 # que aparecen en verde con el hashtag "#"
 
-# Ejercicios con bucles "while"
+# Ejemplos con listas y bucles for
 
-x = 0
-# Realizar un bucle "while" cuya condición de continuidad
-# sea que <x sea menor a 10> y que <x sea distinto de 6>
-# Colocar ambas condiciones como condicion del "while" realizando
-# una condición compuesta (utilice el operador "and" o "or" según corresponda)
-# En cada iteracion del bucle debe incrementar el valor de "x" en "2"
-# e imprimir en pantalla el resultado de X (antes de incrementar) con print
+# Objetivo:
+# Dado una lista de números, utilizar "for"
+# para recorrer toda la lista y realizar 
+# la sumatoria de todos los números positivos
 
-# Realice el mismo bucle "while" pero en vez de estar formado por una condición
-# compuesta, que el "while" siga iterando mientras <x sea menos a 10>, y dentro del
-# "while" consultar si <x es igual a 6>, y en ese caso realizar una interrupción del bucle
-# En cada iteracion del bucle debe incrementar el valor de "x" en "2"
-# e imprimir en pantalla el resultado de X (antes de incrementar) con print
+# Alumno:
+# Usted ya cuenta con la lista numeros
+# Crear una variable llamada suma_total
+# inicializada en cero
+# Realiza un bucle que recorra cada elemento
+# En cada iteración incrementar el valor de suma_total
+# (con el operador incremento) con cada número positivo
+# Utilice un condicional para evaluar si el número
+# es positivo
 
-print("terminamos!")
+# TIP
+# Utilice el debugger para ver como avanza
+# el programa paso a paso
+numeros = [1, 5, -1, 6, 10, 2, -5]
+
+suma_total = 0
+for numero in numeros:
+    if numero > 0:
+        suma_total += numero
+
+# Imprimir en pantalla la variable temperaturas
+# El resultado final de la suma deberá ser 24
+print(suma_total)

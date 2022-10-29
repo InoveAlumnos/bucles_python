@@ -2,26 +2,38 @@
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # IMPORTANTE: NO borrar los comentarios
 # que aparecen en verde con el hashtag "#"
 
-# Ejercicio de secuencias numéricas
+# Ejemplos con listas y bucles for
 
-# Pedir por consola dos números que representen el principio y fin de una
-# secuencia numérica.
-# Realizar un bucle "for" que recorra esa secuencia armada con "range"
-# y calcule a sumatoria total de todos los números dentro de esa secuencia
-# Tener en cuenta que "range" no incluye el número de "fin" en su secuencia,
-# sino que va hasta el anterior
+# Objetivo:
+# Dado una lista de temperaturas,
+# contar cuantas temperaturas se registraron
+# mayor a 25.
 
-inicio = int(input('Ingrese el primer número de la secuencia\n'))
-fin = int(input('Ingrese el último número de la secuencia\n'))
-sumatoria = 0  # Inicializo el contador en 0
+# Alumno:
+# Usted ya cuenta con la lista temperaturas
+# Crear una variable llamada mayores_25
+# inicializada en cero
+# Realiza un bucle que recorra cada elemento
+# En cada iteración incrementar el valor de mayores_25
+# en 1 (con el operador incremento) por cada
+# temperatura mayor a 25 en la lista
 
-# for ... in range(....)
+# TIP
+# Utilice el debugger para ver como avanza
+# el programa paso a paso
+temperaturas = [12.8, 18.6, 14.5, 27.8, 12.1, 26.2, 13.5, 18.6,
+                  14.7, 19.6, 21.2, 31.4]
 
-# Imprimir el valor de la sumatoria
+mayores_25 = 0
+for temperatura in temperaturas:
+    if temperatura > 25:
+        mayores_25 += 1
 
-print("terminamos!")
+# Imprimir en pantalla la variable temperaturas
+# La cantidad de temperaturas a 25 deberá ser 3
+print(mayores_25)

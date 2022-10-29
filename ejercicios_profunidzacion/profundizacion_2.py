@@ -2,7 +2,7 @@
 # Ejercicios de profundización
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # NOTA: 
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
@@ -12,26 +12,39 @@
 
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
+# Ejercicios de práctica con listas y bucles
 '''
 Enunciado:
-Realice una calculadora:
-Dentro de un bucle se debe ingresar por línea de comando dos números
-Luego se ingresará como tercera entrada al programa el símbolo de la operación
-que se desea ejecutar:
-- Suma (+)
-- Resta (-)
-- Multiplicación (*)
-- División (/)
-- Exponente/Potencia (**)
-Se debe efectuar el cálculo correcto según la operación ingresada por consola
-Imprimir en pantalla la operación realizada y el resultado
+- Realizar un programa que determine cuantos
+  examenes presentó un alumno y cuantos
+  ausentes tuvo.
+- Las notas negativas dentro de la lista
+  son los ausentes, las notas positivas
+  son los resultados de los examanes a los
+  que se presentó.
+- Ya cuenta con la variable notas
 
-El programa se debe repetir dentro del bucle hasta que como operador
-se ingrese la palabra "FIN", en ese momento debe terminar el programa
+Alumno:
+- Crear una una variable llamada cantidad_examanes
+  para almacenar a cuantos exámenes se presentó
+  el alumno (debe inicializarla en cero).
+  Utilice un bucle e incremente en 1 la variable
+  cantidad_examanes en cada iteración donde la nota
+  sea positiva o cero.
 
-Se debe debe imprimir un cartel de error si el operador ingresado no es
-alguno de lo soportados o no es la palabra "FIN".
+- Crear una una variable llamada cantidad_ausentes
+  para almacenar la cantidad de ausentes del
+  alumno (debe inicializarla en cero).
+  Utilice un bucle e incremente en 1 la variable
+  cantidad_ausentes en cada iteración donde la nota
+  sea negativa.
+
+- BONUS: Todo el ejercicio se puede resolver
+  en un único bucle, puede hacer dos bucles
+  por separado y luego ver como unirlos en uno solo
+
+- Al final imprimir en pantalla todas las variables
 '''
 
-print("Mi Calculadora (^_^)")
+print("Mi organizador académico (#_#)")
 # Empezar aquí la resolución del ejercicio

@@ -2,24 +2,41 @@
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # IMPORTANTE: NO borrar los comentarios
 # que aparecen en verde con el hashtag "#"
 
-# Ejemplos con bucles "for"
+# Ejercicios con listas y bucles for
 
-# Dado la siguiente lista de colores, utilizar "for"
-# para imprimir en pantalla todos los colores
-colores = ['rojo', 'naranja', 'verde', 'azul']
+# Objetivo:
+# Crear una lista vacia de temperaturas
+# que ocurrieron durante el día usando bucles
 
-# Itere el "for" utilizando la lista como parámero
-# y utilizar como elemento del "for" cada color
-# for color ...
+# Alumno:
+# Crear una variable del tipo lista
+# llamada temperaturas --> crearla vacia
+# Utilizar un bucle "for" con "range"
+# para solicitarle al usuario que ingrese 5
+# temperaturas utilizando input
+# Cada temperatura ingresada en cada iteración
+# con input deberá almacenarse en la lista
+# temperaturas utilizando append
 
-# Itere el "for" utilizando el tamaño de la lista
-# como parámetro y utilizar el índice para acceder a
-# los elementos de la lista
-# for i ...
+# TIP
+# Utilice el debugger para ver como avanza
+# el programa paso a paso
 
-print("terminamos!")
+# IMPORTANTE
+# Cada temperatura deberá almacenarse
+# como un valor decimal (utilice float con el input)
+
+temperaturas = []
+for i in range(5):
+    temperatura = float(input("Ingrese una temperatura:\n"))
+    temperaturas.append(temperatura)
+
+# Imprimir en pantalla la variable temperaturas
+# Deberá observar sus 5 temperaturas ingresadas
+# por consola
+print(temperaturas)
