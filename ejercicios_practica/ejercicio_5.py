@@ -29,11 +29,6 @@
 temperaturas = [12.8, 18.6, 14.5, 27.8, 12.1, 26.2, 13.5, 18.6,
                   14.7, 19.6, 21.2, 31.4]
 
-mayores_25 = 0
-for temperatura in temperaturas:
-    if temperatura > 25:
-        mayores_25 += 1
 
 # Imprimir en pantalla la variable temperaturas
 # La cantidad de temperaturas a 25 deberá ser 3
-print(mayores_25)

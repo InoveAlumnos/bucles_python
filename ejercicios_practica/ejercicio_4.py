@@ -29,11 +29,6 @@
 # el programa paso a paso
 numeros = [1, 5, -1, 6, 10, 2, -5]
 
-suma_total = 0
-for numero in numeros:
-    if numero > 0:
-        suma_total += numero
 
 # Imprimir en pantalla la variable temperaturas
 # El resultado final de la suma deberá ser 24
-print(suma_total)
