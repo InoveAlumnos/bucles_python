@@ -48,3 +48,4 @@ Alumno:
 
 print("Mi organizador académico (#_#)")
 # Empezar aquí la resolución del ejercicio
+notas = [70, 82, -1, 65, 55, 67, 87, 92, -1]
