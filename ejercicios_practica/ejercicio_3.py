@@ -28,5 +28,5 @@
 numeros = [1, 5, -1, 6, 10, 2, -5]
 
 
-# Imprimir en pantalla la variable temperaturas
+# Imprimir en pantalla la variable suma_total
 # El resultado final de la suma deberá ser 18
