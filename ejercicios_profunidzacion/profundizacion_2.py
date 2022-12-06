@@ -26,11 +26,11 @@ Enunciado:
 - Ya cuenta con la variable notas
 
 Alumno:
-- Crear una una variable llamada cantidad_examanes
+- Crear una una variable llamada cantidad_examenes
   para almacenar a cuantos exámenes se presentó
   el alumno (debe inicializarla en cero).
   Utilice un bucle e incremente en 1 la variable
-  cantidad_examanes en cada iteración donde la nota
+  cantidad_examenes en cada iteración donde la nota
   sea positiva o cero.
 
 - Crear una una variable llamada cantidad_ausentes
